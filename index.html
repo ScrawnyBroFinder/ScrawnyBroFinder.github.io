@@ -1,0 +1,42 @@
+<!DOCTYPEhtml>
+<html>
+	<head>
+		<title>WHERE IS SCRAWNY BRO?</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+		<script src="index.js"></script>
+	</head>
+	<body>
+		<div id="hamburger" onclick="menu_toggle();">
+			<div class="bars"></div>
+			<div class="bars"></div>
+			<div class="bars"></div>
+		</div>
+		<div id="nav-bar">
+			<div class="nav-slot"><a class="nav-links" href="index.html"><p>HOME</p></a></div>
+			<div class="nav-slot"><a class="nav-links" href="last-known-location.html"><p>LAST KNOWN LOCATION</p></a></div>
+			<div class="nav-slot"><a class="nav-links" href="#" onclick="juju();">PLAY SCRAWNY SONGS</a></div>
+			<div class="nav-slot"><a class="nav-links" href="about-scrawny-bro.html"><p>WHY SO SCRAWNY?</p></a></div>
+			<div class="nav-slot"><a class="nav-links" href="scrawny-plug.html"><p>FOLLOW US</p></a></div>
+		</div>
+		<div id="setup">
+			<img id="stars" width="100%" height="125%" src="setup_image.jpg" />
+			<h1 id="title-text">WHERE IS SCRAWNY BRO?</h1>
+		</div>
+		<div id="container-serious">
+			<h1 class="serious-text">"Let's find him" - Anonymous<h1>
+		</div>
+		<div id="help-serious">
+			<h1 class="serious-text">HELP OUT.<h1>
+			<a href="https://twitter.com/Detecti59025169?s=20" ><img id="main-twitter-logo" src="twitter_logo_volt.png" /></a>
+		</div>
+		<!--<img style="border-radius: 350px" src="scrawny.jpg" />-->
+		<script>
+			function adjust() {
+				document.getElementById("setup").style.height = screen.height + "px";
+				document.getElementById("container-serious").style.height = screen.height + "px";
+				document.getElementById("help-serious").style.height = screen.height + "px";
+			}
+			adjust();
+		</script>
+	</body>
+</html>

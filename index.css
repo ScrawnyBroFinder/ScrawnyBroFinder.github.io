@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	padding: 0;
+	margin-top: 0px;
+	background-color: black;
+}
+#nav-bar {
+	display: none;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+}
+.nav-slot {
+	
+}
+.nav-links {
+	font-size: 3em;
+	text-decoration: none;
+	color: white;
+}
+#hamburger {
+	margin-left: 1.5%;
+	margin-bottom: 5%;
+	margin-top: 0.75%;
+}
+#hamburger:hover{
+	cursor: pointer;
+}
+.bars {
+  width: 70px;
+  height: 10px;
+  background-color: white;
+  margin: 12px 0;
+}
+#setup {
+	width: 100%;
+}
+#title-text {
+	display: block;
+	color: white;
+	font-size: 10em;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -150%);
+}
+#container-serious {
+	display: block;
+	font-size: 5em; 
+	text-align: center; 
+	color: white;
+	position: relative;
+	top: 50%;
+	transform: translate(0%, +50%);
+}
+#help-serious {
+	display: block;
+	font-size: 5em; 
+	text-align: center; 
+	color: white;
+	position: relative;
+	top: 50%;
+	transform: translate(0%, +50%);
+}
+#main-twitter-logo {
+	width: 300px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#main-twitter-logo:hover {
+	cursor: pointer;
+}
+#scrawny-loc {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	
+}
+#about-pic {
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	border-radius: 200px;
+}
+#twitter-widget-0 {
+	display: block;
+	height: auto;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
